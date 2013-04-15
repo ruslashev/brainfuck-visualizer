@@ -109,7 +109,17 @@ section.machine {
 
     table {
         padding: 4px 10px;
+        color: #494949;
+		border-collapse: collapse;
     }
+
+	#ascii table, #ascii td, th {
+		border: 1px solid
+	}
+
+	#ascii td {
+		font-family: monospace;
+	}
 
     table td {
         padding: 10px;
@@ -119,4 +129,5 @@ section.machine {
     section#info {
         margin: 0 20px;
     }
+
 
